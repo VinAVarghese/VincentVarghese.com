@@ -9,22 +9,23 @@ html, body {
 
 header .row {
     background-color: #373e4c;
+
 }
 
 /* header name "Vincent Varghese" */
 header h1 {
     font-family: 'Libre Franklin', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     color: 	#d5cfcf;
-    display:flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     background-color: #373e4c;
     /* border-radius: 10px; */
     padding: 10px;
     margin: auto;
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 /* hero area, unsplash img Photo by JOHN TOWNER on Unsplash */
@@ -57,12 +58,11 @@ section figure h1 {
 }
 
 /* bio profile picture */
-section img {
+section figure img {
     /* border-radius: 100px; */
-    z-index: 5;
     position: relative;
     bottom: 100px;
-    /* padding: none; */
+    padding: none none;
 }
 
 /* bio first letter */

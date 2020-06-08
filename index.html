@@ -15,10 +15,85 @@
   <main id="page-content">
 
     <header class="container-fluid">
-      <section class="row justify-content-sm-center">
-        <h1 class="col-sm-4">Vincent Varghese</h1>
-      </section>
+      <nav class="row navbar navbar-expand-lg navbar-dark">
+        <h1 class="col-4">Vincent Varghese</h1>
+        <section class="col-4">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class=" navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </nav>
     </header>
+
+
+    <!-- navbar (from scratch try)  
+    <nav class="navbar navbar-expand-lg">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav> -->
+
+    <!-- navbar from net ninja tutorial 
+    <nav class="navbar navbar-toggleable-sm bg-light navbar-inverse">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Profile</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
+    <!-- Nav bar code from bootstrap website ...
+      <nav class="container-fluid navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar w/ text</a>
+      <span class="justify-content-sm-center navbar-text">
+        Vincent Varghese
+      </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class=" navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <!-- Nav code created from net ninja tutorial ...
+    <nav class="nav nav-pills col-sm-4 justify-content-sm-end flex-md-row flex-column">
+      <a class="nav-link active" href="">About</a>
+      <a class="nav-link" href="">Profile</a>
+      <a class="nav-link" href="">Contact</a>
+    </nav> -->
 
     <section class="container-fluid">
       <figure class="hero row">
@@ -26,7 +101,7 @@
       </figure>
       
       <figure class="row justify-content-sm-center">
-        <img class="col-sm-4" src="/Assets/Images/IMG_6500 copy.jpg">
+        <img class="col-sm-4 biopic" src="/Assets/Images/IMG_6500 copy.jpg">
       </figure>
 
       <article class="bio row justify-content-sm-center">  
@@ -53,15 +128,17 @@
 
 </html>
 
-<!-- Currently Working On: Entering in BS nav bar  -->
+<!-- Currently Working On: Finishing header i.e. finishing nav bar and centering h1 text  -->
 <!-- To Do: 
   choose final photos, 
   choose color scheme, 
-  copy started code into portfolio and contact, 
+  copy started code into portfolio and contact,
+  ensure links work, 
   enter carosel component in portfolio, 
   enter contact component in contact, 
   link to linkedin, 
   look into "sub-rows" and "sub-columns",
+  check semantic html,
   check responsiveness, 
   check html validation,
   -->

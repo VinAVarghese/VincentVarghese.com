@@ -1,5 +1,5 @@
 html, body {
-    background-color: #d5cfcf;
+    background-color: #c7c5cf;
     height: 100%;
 }
 
@@ -16,7 +16,7 @@ html, body {
     align-items: center;
     font-family: 'Libre Franklin', sans-serif;
     text-align: center;
-    color:#d5cfcf;
+    color:#c7c5cf;
     padding-top: .6rem;
     padding-right: 2rem;
     white-space: nowrap;
@@ -25,7 +25,7 @@ html, body {
 }
 
 .navbackground {
-    background-color: #373e4c;
+    background-color: #324159;
 }
 
 .logo {
@@ -40,7 +40,7 @@ html, body {
         align-items: center;
         font-family: 'Libre Franklin', sans-serif;
         text-align: center;
-        color:#d5cfcf;
+        color:#c7c5cf;
         padding-top: .6rem;
         padding-right: 1.5rem;
         white-space: nowrap;
@@ -53,16 +53,16 @@ html, body {
 
 /* hero area, unsplash img Photo by JOHN TOWNER on Unsplash */
 section .hero {
-    background-image: url(/Assets/Images/pawel-czerwinski-OOFSqPWjCt0-unsplash.jpg);
+    background-image: url(/Assets/Images/john-towner-JgOeRuGD_Y4-unsplash.jpg);
     height: 500px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 50% 95%;
+    background-position: 50% 50%;
     background-size: cover; 
 }
 
 /* Turn off parallax scrolling for all tablets and phones.*/
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 475px) {
     .hero {
     background-attachment: scroll;
     } 
@@ -75,7 +75,7 @@ section figure h1 {
     text-shadow: 1px 1px 4px black;
     font-weight: 500;
     text-transform: uppercase;
-    color: #d5cfcf;
+    color: #c7c5cf;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -88,11 +88,12 @@ section figure img {
     position: relative;
     bottom: 100px;
     padding: none none;
+    border-radius: 70px;
 }
 
 /* bio first letter */
 .firstcharacter {
-    color: #b2392d;
+    color: #982b34;
     float: left;
     font-family: 'Roboto', sans-serif;
     font-size: 75px;
@@ -113,8 +114,8 @@ section article p {
 
 footer {
     text-align: center;
-    color: #d5cfcf;
-    background-color:#203145;
+    color: #c7c5cf;
+    background-color:#1f273f;
 }
  #sticky-footer {
      flex-shrink: none;

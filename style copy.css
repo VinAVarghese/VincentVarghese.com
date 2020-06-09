@@ -7,38 +7,39 @@ html, body {
     flex: 1 0 auto
 }
 
-header .row {
-    background-color: #373e4c;
-}
-
-/* header "Vincent Varghese" */
-header section h1 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: 	#d5cfcf;
-    text-align: center;
-    background-color: #373e4c;
-    /* border-radius: 10px; */
-    padding: 10px;
-    display:flex;
-    align-items: center;
+.myName {
     justify-content: center;
-    position: relative;
-    left: 90px;
-}
-
-header section nav {
-    position: relative;
-    left: 90px;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    color:#d5cfcf;
+    padding-top: .6rem;
+    padding-right: 2rem;
+    white-space: nowrap;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .logo {
-    height: 60px;
+    height: 50px;
     width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+
+/* .myName settings with screens*/
+@media only screen and (max-device-width: 475px) {
+    .myName {
+        justify-content: center;
+        align-items: center;
+        font-family: 'Libre Franklin', sans-serif;
+        text-align: center;
+        color:#d5cfcf;
+        padding-top: .6rem;
+        padding-right: 1.5rem;
+        white-space: nowrap;
+        font-size: 5vw;
+        text-transform: uppercase;
+    }
 }
 
 /* hero area, unsplash img Photo by JOHN TOWNER on Unsplash */
@@ -52,9 +53,9 @@ section .hero {
 }
 
 /* Turn off parallax scrolling for all tablets and phones.*/
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 475px) {
     .hero {
-    background-attachment: scroll;
+    background-attachment: scroll;s
     } 
 }
 
@@ -68,6 +69,7 @@ section figure h1 {
     display:flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 /* bio profile picture */

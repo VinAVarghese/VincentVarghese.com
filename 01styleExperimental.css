@@ -55,7 +55,7 @@ section .hero {
 /* Turn off parallax scrolling for all tablets and phones.*/
 @media only screen and (max-device-width: 475px) {
     .hero {
-    background-attachment: scroll;s
+    background-attachment: scroll;
     } 
 }
 

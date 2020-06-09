@@ -7,39 +7,49 @@ html, body {
     flex: 1 0 auto
 }
 
-header .row {
-    background-color: #373e4c;
-}
+    
+/* ///NAVBAR/// */
 
-/* header "Vincent Varghese" */
-header section h1 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: 	#d5cfcf;
-    text-align: center;
-    background-color: #373e4c;
-    /* border-radius: 10px; */
-    padding: 10px;
-    display:flex;
-    align-items: center;
+/* navbar styling */
+.myName {
     justify-content: center;
-    position: relative;
-    left: 90px;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    color:#d5cfcf;
+    padding-top: .6rem;
+    padding-right: 2rem;
+    white-space: nowrap;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
-header section nav {
-    position: relative;
-    left: 90px;
+.navbackground {
+    background-color: #373e4c;
 }
 
 .logo {
-    height: 60px;
+    height: 50px;
     width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
+/* .myName settings with small screens and lower*/
+@media only screen and (max-device-width: 475px) {
+    .myName {
+        justify-content: center;
+        align-items: center;
+        font-family: 'Libre Franklin', sans-serif;
+        text-align: center;
+        color:#d5cfcf;
+        padding-top: .6rem;
+        padding-right: 1.5rem;
+        white-space: nowrap;
+        font-size: 5vw;
+        text-transform: uppercase;
+    }
+}
+
+/* ///HEROAREA/// */
 
 /* hero area, unsplash img Photo by JOHN TOWNER on Unsplash */
 section .hero {
@@ -61,6 +71,7 @@ section .hero {
 /* hero text */
 section figure h1 {
     font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
     text-shadow: 1px 1px 4px black;
     font-weight: 500;
     text-transform: uppercase;
@@ -70,9 +81,10 @@ section figure h1 {
     justify-content: center;
 }
 
+/* ///BIOAREA/// */
+
 /* bio profile picture */
 section figure img {
-    /* border-radius: 100px; */
     position: relative;
     bottom: 100px;
     padding: none none;
@@ -97,6 +109,8 @@ section article p {
     bottom: 100px;
 }
 
+/* ///FOOTER/// */
+
 footer {
     text-align: center;
     color: #d5cfcf;
@@ -106,6 +120,8 @@ footer {
      flex-shrink: none;
  }
 
+
+
+/* ///OTHER/// */
 /* header font: font-family: 'Libre Franklin', sans-serif; */
-/* body option 1: font-family: 'Open Sans', sans-serif; */
-/* body option 2: font-family: 'Roboto', sans-serif; */
+/* body option 1: font-family: 'Roboto', sans-serif; */

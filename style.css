@@ -40,6 +40,7 @@ html, body {
         align-items: center;
         font-family: 'Libre Franklin', sans-serif;
         text-align: center;
+        text-shadow: 1px 1px 4px black;
         color:#c7c5cf;
         padding-top: .6rem;
         padding-right: 1.5rem;
@@ -53,7 +54,8 @@ html, body {
 
 /* hero img (unsplash img Photo by JOHN TOWNER on Unsplash) */
 section .hero {
-    background-image: url(/Assets/Images/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    background-image: url(/assets/images/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    alt: "mountains";
     height: 500px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -63,9 +65,15 @@ section .hero {
 
 /* turning off parallax on small viewports*/
 @media only screen and (max-device-width: 475px) {
-    .hero {
-    background-attachment: scroll;
-    } 
+    section .hero {
+        background-image: url(/assets/images/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+        alt: "mountains";
+        height: 500px;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+        background-size: cover; 
+    }    
 }
 
 /* hero text */
@@ -116,10 +124,20 @@ section article p {
     text-align: center;
     font-family:'Libre Franklin', sans-serif;
     text-transform: uppercase;
-    color: #324159;
+    text-shadow: 1px 1px 4px black;
+    font-weight: 500;
+    color: #c7c5cf;
     padding: 30px;
-    position: relative;
-    top: 5px;
+    margin: 0;
+    background-image: url(/assets/images/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    alt: "mountains";
+    background-attachment: scroll;
+    background-position: 50% 20%;
+    background-size: cover; 
+}
+
+header h1 {
+    margin: 0;
 }
 
 .pagetext {

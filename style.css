@@ -99,12 +99,12 @@ section figure img {
     border-radius: 70px;
 }
 
-.biopic {
+/* .biopic {
     max-width: 350px;
     height: auto;
     min-width: 250px;
     height: auto;
-}
+} */
 
 /* bio first letter */
 .firstcharacter {

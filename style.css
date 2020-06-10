@@ -97,6 +97,7 @@ section figure img {
     bottom: 100px;
     padding: none none;
     border-radius: 70px;
+    height: 100%;
 }
 
 /* bio first letter */

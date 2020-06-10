@@ -97,8 +97,12 @@ section figure img {
     bottom: 100px;
     padding: none none;
     border-radius: 70px;
-    max-width: 100%;
+}
+
+.biopic {
+    max-width: 30%;
     height: auto;
+    min-width: 250px;
 }
 
 /* bio first letter */

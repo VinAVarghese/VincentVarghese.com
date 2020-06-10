@@ -171,14 +171,55 @@ header h1 {
     border-color: #324159;
 }
 
-.btn.btn-success:hover {
-    background-color: #324159;
+
+/* ///CONTACT PAGE/// */
+
+.form-control, .form-group {
+    color: #324159;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+ }
+
+.formstyle {
+    border-color: #982b34;
+    border-style: solid;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
+
+.text-area {
+    background-color: #dbdade;
+}
+
+.linkedin {
+    width: 50px;
+    height: auto;
+    border-color: #324159;
+    border-style: solid;
+}
+
+.linkedincenter {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.thankyou {
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    color: #324159;
+    margin-top: 50px
+}
+
+/* ///PAGE BOTTOM/// */
 
 .logoside {
     height: 50vw;
     display: flex;
     justify-items: center;
+    margin:100px;
+    opacity: 50%;
 }
 
 /* ///FOOTER/// */
@@ -191,8 +232,6 @@ footer {
  #sticky-footer {
      flex-shrink: none;
  }
-
-
 
 /* ///OTHER/// */
 /* header font: font-family: 'Libre Franklin', sans-serif; */

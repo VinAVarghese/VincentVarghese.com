@@ -10,7 +10,7 @@ html, body {
     
 /* ///NAVBAR/// */
 
-/* navbar styling */
+/* personal navbar styling */
 .myName {
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ html, body {
     width: auto;
 }
 
-/* .myName settings with small screens and lower*/
+/* .myName size and padding settings small viewports*/
 @media only screen and (max-device-width: 475px) {
     .myName {
         justify-content: center;
@@ -51,7 +51,7 @@ html, body {
 
 /* ///HEROAREA/// */
 
-/* hero area, unsplash img Photo by JOHN TOWNER on Unsplash */
+/* hero img (unsplash img Photo by JOHN TOWNER on Unsplash) */
 section .hero {
     background-image: url(/Assets/Images/john-towner-JgOeRuGD_Y4-unsplash.jpg);
     height: 500px;
@@ -61,7 +61,7 @@ section .hero {
     background-size: cover; 
 }
 
-/* Turn off parallax scrolling for all tablets and phones.*/
+/* turning off parallax on small viewports*/
 @media only screen and (max-device-width: 475px) {
     .hero {
     background-attachment: scroll;
@@ -108,6 +108,59 @@ section article p {
     font-family: 'Roboto', sans-serif;
     position: relative;
     bottom: 100px;
+}
+
+/* ///PORTFOLIO & CONTACT PAGE STYLING/// */
+
+.pageheader {
+    text-align: center;
+    font-family:'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    color: #324159;
+    padding: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.pagetext {
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #324159;
+    padding: 30px;
+    position: relative;
+    top: 10px;
+}
+
+/* ///PORTFOLIO PAGE/// */
+
+/* card styling */
+
+.portfoliocards {
+    border-color: #982b34;
+    border-style: solid;
+    background-color: #dbdade;
+}
+
+.card-title, .card-text {
+    color: #324159;
+} 
+
+
+.btn {
+    color: #dbdade;
+    background-color: #982b34;
+    border-color: #324159;
+}
+
+.btn.btn-success:hover {
+    background-color: #324159;
+}
+
+.logoside {
+    height: 50vw;
+    display: flex;
+    justify-items: center;
 }
 
 /* ///FOOTER/// */

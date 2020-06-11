@@ -97,8 +97,10 @@ section figure h1 {
     bottom: 100px;
     padding: none none;
     border-radius: 70px;
-    max-width: 350px;
-    min-width: 225px;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 350px !important;
+    min-width: 225px !important;
 }
 
 /* bio first letter */

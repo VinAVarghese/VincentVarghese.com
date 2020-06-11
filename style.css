@@ -92,29 +92,16 @@ section figure h1 {
 /* ///BIOAREA/// */
 
 /* bio profile picture */
-section figure img {
+#biopic {
     position: relative;
     bottom: 100px;
     padding: none none;
     border-radius: 70px;
     width: 100%;
     height: auto;
-    max-width: 500px;
+    max-width: 350px;
+    min-width: 225px;
 }
-
-@media only screen and (max-device-width: 1024px) {
-    section figure img {
-        position: relative;
-        bottom: 100px;
-        padding: none none;
-        border-radius: 70px;
-        width: 100%;
-        height: auto;
-        max-width: 300px;
-        min-width: 250px;
-    }  
-}
-
 
 /* bio first letter */
 .firstcharacter {

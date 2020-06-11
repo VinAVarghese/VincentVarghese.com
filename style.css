@@ -97,6 +97,9 @@ section figure img {
     bottom: 100px;
     padding: none none;
     border-radius: 70px;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -105,10 +108,10 @@ section figure img {
         bottom: 100px;
         padding: none none;
         border-radius: 70px;
+        width: 100%;
+        height: auto;
         max-width: 300px;
-        height: auto;
         min-width: 250px;
-        height: auto;
     }  
 }
 

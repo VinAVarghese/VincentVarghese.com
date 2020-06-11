@@ -92,12 +92,12 @@ section figure h1 {
 /* ///BIOAREA/// */
 
 /* bio profile picture */
-section figure img {
+/* section figure img {
     position: relative;
     bottom: 100px;
     padding: none none;
     border-radius: 70px;
-}
+} */
 
 @media only screen and (max-device-width: 1024px) {
     section figure img {

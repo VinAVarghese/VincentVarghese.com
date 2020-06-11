@@ -102,20 +102,6 @@ section figure h1 {
     max-width: 350px;
     min-width: 225px; */
 }
-
-/* adjusting for other mobiles*/
-/* @media only screen and (max-device-width: 1000px) {
-    #biopic {
-        position: relative;
-        bottom: 100px;
-        padding: none none;
-        border-radius: 70px;
-        width: 100%;
-        height: auto;
-        max-width: 350px;
-        min-width: 225px;
-    }
-} */
     
 
 /* bio first letter */

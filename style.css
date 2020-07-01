@@ -24,6 +24,10 @@ html, body {
     text-transform: uppercase;
 }
 
+.d-flex a:hover {
+    text-decoration: none;
+}
+
 .navbackground {
     background-color: #324159;
 }
@@ -123,6 +127,14 @@ section article p {
     bottom: 100px;
 }
 
+/* ///RESUME PAGE STYLING/// */
+
+.resume-window {
+    position: relative;
+    bottom: 100px;
+    border-radius: 70px;
+}
+
 /* ///PORTFOLIO & CONTACT PAGE STYLING/// */
 
 .pageheader {
@@ -157,6 +169,12 @@ header h1 {
 
 /* ///PORTFOLIO PAGE/// */
 
+/* carousel styling */
+
+.carousel-caption {
+    text-shadow: 1px 1px 4px black;
+}
+
 /* card styling */
 
 .portfoliocards {
@@ -168,7 +186,6 @@ header h1 {
 .card-title, .card-text {
     color: #324159;
 } 
-
 
 .btn {
     color: #dbdade;
@@ -188,6 +205,7 @@ header h1 {
 .formstyle {
     border-color: #982b34;
     border-style: solid;
+    border-radius: 10px;
     margin-top: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -202,12 +220,7 @@ header h1 {
     height: auto;
     border-color: #324159;
     border-style: solid;
-}
-
-.linkedincenter {
-    display: flex;
-    justify-items: center;
-    align-items: center;
+    border-radius: 10px;
 }
 
 .thankyou {

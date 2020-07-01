@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagefolder/favicon.ico">
-  </head>
+    <link rel="shortcut icon" href="imagefolder/logothumbnaildark.png">
+</head>
 
-  <body class="d-flex flex-column">
+<body class="d-flex flex-column">
 
     <main id="page-content">
         <!-- navbar  -->
         <nav class="navbar navbar-expand-lg navbar-dark navbackground">
             <img src="imagefolder/logothumbnail.png" class="logo" alt="logo">
             <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-            <h1 class="myName">Vincent Varghese</h1>
-            <div class="w-100 text-right hamburger">
-                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#myNavbar7">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
+                <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                <a href="index.html"><h1 class="myName">Vincent Varghese</h1></a>
+                <div class="w-100 text-right hamburger">
+                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#myNavbar7">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
             </div>
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-            </ul>
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a href="resume.html" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>  
+        </nav>
 
         <header class="pageheader">
             <h1>Portfolio</h1>
@@ -54,22 +57,22 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagefolder/luke-chesser-unsplash.jpg" class="d-block w-100" alt="info widget">
-                
+                    <img src="imagefolder/mixme.png" class="d-block w-100" alt="MixMe">
+
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Info Widget</h5>
+                        <h5>MixMe</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imagefolder/ilya-pavlov-unsplash.jpg" class="d-block w-100" alt="code for rpg game">
+                    <img src="imagefolder/workdayplan.png" class="d-block w-100" alt="Workday Scheduler">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>RPG Game</h5>
+                        <h5>Work Day Scheduler</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imagefolder/sean-whelan-unsplash.jpg" class="d-block w-100" alt="microcontroller">
+                    <img src="imagefolder/passwordgen.png" class="d-block w-100" alt="Password Generator">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Microcontroller Coding</h5>
+                        <h5>Password Generator</h5>
                     </div>
                 </div>
             </div>
@@ -88,48 +91,67 @@
             <div class="row justify-content-center">
                 <div class="col">
 
-                    <p class="pagetext">Projects that I've had the pleasure of working on</p>
+                    <p class="pagetext">Projects I've had the pleasure of working on</p>
 
                     <div class="row justify-content-center card-deck">
                         <div class="portfoliocards col-sm-5 card" style="width: 18rem;">
-                            <img src="imagefolder/sean-whelan-unsplash.jpg" class="card-img-top" alt="microcontroller">
+                            <img src="imagefolder/mixme.png" class="card-img-top" alt="mixme">
                             <div class="card-body">
-                            <h5 class="card-title">Microcontroller Code</h5>
-                            <p class="card-text">This is something I worked on maybe?</p>
-                            <a href="https://github.com/VinAVarghese" class="btn btn-dark" target= "_blank">Git Hub Repo</a>
+                                <h5 class="card-title">MixMe</h5>
+                                <p class="card-text">An app for the everyday and aspiring mixologist. Using JavaScript
+                                    and API consumption, my team created an app that helps user search, make, and even
+                                    find unique mixed drinks locally!</p>
+                                <a href="https://github.com/VinAVarghese/ProjectMixMe" class="btn btn-dark"
+                                    target="_blank">GitHub Repo</a>
+                                <a href="https://vinavarghese.github.io/ProjectMixMe/" class="btn btn-dark"
+                                    target="_blank">Deployed App</a>
+
                             </div>
                         </div>
 
                         <div class="portfoliocards col-sm-5 card" style="width: 18rem;">
-                            <img src="imagefolder/ilya-pavlov-unsplash.jpg" class="card-img-top" alt="code for rpg game">
+                            <img src="imagefolder/workdayplan.png" class="card-img-top" alt="work day scheduler">
                             <div class="card-body">
-                            <h5 class="card-title">RPG Game</h5>
-                            <p class="card-text">This is too is something I worked on?</p>
-                            <a href="https://github.com/VinAVarghese" class="btn btn-dark" target= "_blank">Git Hub Repo</a>
+                                <h5 class="card-title">Work Day Scheduler</h5>
+                                <p class="card-text">This is a simple app for the on-the-go user looking to stay
+                                    organized and on top of appointments. Using Javascript, moment.js, and local
+                                    storage, the app saves notes and color codes the hours of the day.</p>
+                                <a href="https://github.com/VinAVarghese/Work-Day-Scheduler" class="btn btn-dark"
+                                    target="_blank">GitHub Repo</a>
+                                <a href="https://vinavarghese.github.io/ProjectMixMe/" class="btn btn-dark"
+                                    target="_blank">Deployed App</a>
                             </div>
                         </div>
                     </div>
+
                     <hr>
+
                     <div class="row justify-content-center card-deck">
                         <div class="portfoliocards col-sm-5 card" style="width: 18rem;">
-                            <img src="imagefolder/luke-chesser-unsplash.jpg" class="card-img-top" alt="info widget">
+                            <img src="imagefolder/passwordgen.png" class="card-img-top" alt="Password Generator">
                             <div class="card-body">
-                            <h5 class="card-title">Info Widget</h5>
-                            <p class="card-text">For all you widgety needs and some info to go in it.</p>
-                            <a href="https://github.com/VinAVarghese" class="btn btn-dark" target= "_blank">Git Hub Repo</a>
+                                <h5 class="card-title">Password Generator</h5>
+                                <p class="card-text">A simple password generator that uses JavaScript prompts and
+                                    conditions to recieve user input on password preferences, building out a random
+                                    password of the desired length.</p>
+                                <a href="https://github.com/VinAVarghese/Password-Generator" class="btn btn-dark"
+                                    target="_blank">GitHub Repo</a>
+                                <a href="https://vinavarghese.github.io/Password-Generator/" class="btn btn-dark"
+                                    target="_blank">Deployed App</a>
                             </div>
                         </div>
 
                         <div class="portfoliocards col-sm-5 card" style="width: 18rem;">
-                            <img src="imagefolder/hal-gatewood-unsplash.jpg" class="card-img-top" alt="ux/ui planning">
+                            <img src="imagefolder/jsquiz.png" class="card-img-top" alt="jsquiz page">
                             <div class="card-body">
-                            <h5 class="card-title">Web Designs</h5>
-                            <p class="card-text">This is a web design I created.</p>
-                            <a href="https://github.com/VinAVarghese" class="btn btn-dark" target= "_blank">Git Hub Repo</a>
+                                <h5 class="card-title">JavaScript Quiz</h5>
+                                <p class="card-text">This is a timed quiz built with JavaScript. The subject matter is JavaScript and it is out of this world.</p>
+                                <a href="https://github.com/VinAVarghese/Code-Quiz" class="btn btn-dark" target="_blank">GitHub Repo</a>
+                                <a href="https://vinavarghese.github.io/Code-Quiz/" class="btn btn-dark" target="_blank">Deployed App</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> 
         </section>
 
         <!-- end logo -->
@@ -142,14 +164,20 @@
 
     <!-- footer  -->
     <footer id="sticky-footer" class="py-4">
-      <section class="container">
-        <small class="col-12">© 2020 Vincent Varghese</small>
-      </section>
+        <section class="container">
+            <small class="col-12">© 2020 Vincent Varghese</small>
+        </section>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>

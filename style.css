@@ -58,7 +58,7 @@ html, body {
 
 /* hero img (unsplash img Photo by JOHN TOWNER on Unsplash) */
 section .hero {
-    background-image: url(imagefolder/john-towner-unsplash.jpg);
+    background-image: url(imagefolder/john-towner-unsplash-comp3M.jpg);
     alt: "mountains";
     height: 500px;
     background-attachment: fixed;

@@ -15,17 +15,17 @@ $(submit).on("click", function () {
     $("form").append(p)
 })
 
-$(logoLink).on("click", function () {
+// $(logoLink).on("click", function () {
 
-    gsap.timeline()
-    .to(box, 0.3, {css:{opacity:.9}})
-    .to(tap-container, 0.3, {css:{opacity:.9}}, "-=-0.3")
-    .from(tapLogoL, 2, {rotation:90, transformOrigin:"left 50%"}, "-=-0.1")
-    .from(tapLogoR, 2, {rotation:90, transformOrigin:"right 50%"}, "-=-2.2")
-    // .to(tapLogoR, 2, {rotation:90, transformOrigin:"right 50%"})
+//     gsap.timeline()
+//     .to(box, 0.3, {css:{opacity:.9}})
+//     .to(tap-container, 0.3, {css:{opacity:.9}}, "-=-0.3")
+//     .from(tapLogoL, 2, {rotation:90, transformOrigin:"left 50%"}, "-=-0.1")
+//     .from(tapLogoR, 2, {rotation:90, transformOrigin:"right 50%"}, "-=-2.2")
+//     // .to(tapLogoR, 2, {rotation:90, transformOrigin:"right 50%"})
 
 
 
         
 
-})
+// })

@@ -69,7 +69,7 @@ section .hero {
 /* turning off parallax on small viewports*/
 @media only screen and (max-device-width: 475px) {
     section .hero {
-        background-image: url(imagefolder/john-towner-unsplash.jpg);
+        background-image: url(imagefolder/john-towner-unsplash-comp3M.jpg);
         alt: "mountains";
         height: 500px;
         background-attachment: scroll;
@@ -145,7 +145,7 @@ section article p {
     color: #c7c5cf;
     padding: 30px;
     margin: 0;
-    background-image: url(imagefolder/john-towner-unsplash.jpg);
+    background-image: url(imagefolder/john-towner-unsplash-comp3M.jpg);
     alt: "mountains";
     background-attachment: scroll;
     background-position: 50% 20%;

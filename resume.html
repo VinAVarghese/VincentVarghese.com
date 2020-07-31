@@ -1,74 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vincent Varghese</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagefolder/logothumbnaildark.png">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vincent Varghese</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="imagefolder/logothumbnaildark.png">
+</head>
 
-  <body class="d-flex flex-column">
-    <main id="page-content">
-      <!-- navbar  -->
-      <nav class="navbar navbar-expand-lg navbar-dark navbackground">
-        <img src="imagefolder/logothumbnail.png" class="logo" alt="logo">
-        <div class="d-flex flex-grow-1">
-          <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-          <a href="index.html"><h1 class="myName">Vincent Varghese</h1></a>
-          <div class="w-100 text-right hamburger">
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#myNavbar7">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
+<body class="d-flex flex-column">
+  <main id="page-content">
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbackground">
+      <img src="imagefolder/logothumbnail.png" class="logo" alt="logo">
+      <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block">
+          <!-- hidden spacer to center brand on mobile --></span>
+        <a href="index.html">
+          <h1 class="myName">Vincent Varghese</h1>
+        </a>
+        <div class="w-100 text-right hamburger">
+          <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#myNavbar7">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-          <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item">
-              <a href="resume.html" class="nav-link">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a href="portfolio.html" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-          </ul>
+      </div>
+      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+            <a href="resume.html" class="nav-link">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero  -->
+    <section class="container-fluid">
+      <figure class="hero row">
+        <h1 class="col">Resume</h1>
+      </figure>
+    </section>
+
+    <section class="container">
+      <!-- bio pic  -->
+      <figure class="row justify-content-center">
+        <div class="col-sm-4 col-xs-8">
+          <img class="img-fluid" id="biopic" src="imagefolder/desatpic.jpg" alt="profilepic">
         </div>
-      </nav>  
+      </figure>
+      <!-- resume section  -->
+      <figure class="row justify-content-center">
+        <iframe class="resume-window embed-responsive-item" src="assets/vav_cs_resume0720.pdf" width="100%" height="800px"></iframe>
+      </figure>
+    </section>
+  </main>
 
-      <!-- hero  -->
-      <section class="container-fluid">
-        <figure class="hero row">
-            <h1 class="col">Resume</h1>
-        </figure>
-      </section>
+  <!-- footer  -->
+  <footer id="sticky-footer" class="py-4">
+    <section class="container">
+      <small class="col-12">© 2020 Vincent Varghese</small>
+    </section>
+  </footer>
 
-      <section class="container">
-        <!-- bio pic  -->
-        <figure class="row justify-content-center">
-          <div class="col-sm-4 col-xs-8">
-            <img class="img-fluid" id="biopic" src="imagefolder/desatpic.jpg" alt="profilepic">
-          </div>
-        </figure>
-        <!-- resume section  -->
-        <iframe class="bio row justify-content-sm-center resume-window" src="assets/vav_cs_resume0720.pdf" width="100%" height="800px"></iframe>
-      </section>
-    </main>
-
-    <!-- footer  -->
-    <footer id="sticky-footer" class="py-4">
-      <section class="container">
-        <small class="col-12">© 2020 Vincent Varghese</small>
-      </section>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>
